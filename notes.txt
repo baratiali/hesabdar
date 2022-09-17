@@ -1,0 +1,12 @@
+1. Creating a virtuall enviroment with virtuallenv
+2. source .venv/bin/activate 
+3. Installing django
+4. Create a project django-admin.py startproject bestoon
+5. Running server django python manage.py runserver 8009
+6. check which model has been changed: python manage.py migrate
+7. Create a superadmin: python manage.py createsuperuser
+8. git init 
+9. create a file and put the stuff that you want to be ignored via git: vi .gitignore
+10. check gitignore github: https://github.com/github/gitignore
+11. Create a txt file to save all needed packages: pip freeze > requirements.txt
+11.1 you car install them later with this command: pip install -r requirements
